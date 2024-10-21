@@ -1,0 +1,86 @@
+form {
+  background-color: green;
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  color: white;
+}
+
+div.footer {
+  text-align: center;
+}
+
+div.heading {
+  text-align: center;
+  color: black;
+}
+
+select {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.select {
+  border: 1px solid brown;
+}
+
+.tick {
+  width: 32px;
+  padding-left: 16px;
+}
+
+#nam {
+  width: 99%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#email {
+  width: 99%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#num {
+  width: 99%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.comment {
+  width: 99.5%;
+  height: 10vh;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+textarea {
+  width: 99.5%;
+  height: 10vh;
+}
+
+.footer {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.submit {
+  width: 100%;
+  padding: 12px;
+}

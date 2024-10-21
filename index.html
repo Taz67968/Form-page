@@ -3,10 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>freeecodecamp</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
+    <div class="heading">
+        <h1>freecodecamp Survey Form</h1>
+        <p>Thank you for helping us improve the plaform</p>
+    </div>
+    <div class="form">
+        <form action="/submit" method="POST">
+          <div class="per-info">
+             <label for="Name">Name</label><br>
+             <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+             <label for="Email">Email</label><br>
+             <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+             <label for="Age">Age(optional)</label><br>
+             <input type="num" id="num" placeholder=" Enter your age "> <br>
+          </div>
+            <label for="would you recommend freecodecamp to a freind?">which option best describes your role? <br>
+           </label>
+            <select id="select-current-role" name="select-current-role">
+              <br>
+              <option value="student">student</option>
+              <option value="full time job">full time job</option>
+              <option value="full time learner">full time learner</option>
+              <option value="Prefer not to say">prefer not to say</option>
+              <option value="other">other</option>
+           </select><br>
+    
+            <label for="would you recommend freecodecamp to a freind?">would you recommend freecodecamp to a freind?
+            <br><input type="radio" name="text" value="definitely"> Definitely</label><br>
+            <label><input type="radio" name="text" value="Maybe">Maybe </label><br>
+            <label><input type="radio" name="text" value="Not sure"> Not sure</label><br>
+            <label for="what is your favorite feature of freecodecamp" placeholder=""></label>
+
+            <label for="would you recommend freecodecamp to a freind?">what is your favorite feature of freecodecamp
+            <br></label>
+            <select id="select-current-role1" name="select-current-role" class="select">
+               <option value="student">student</option>
+               <option value="chalenges">chalenges</option>
+               <option value="projects">projects</option>
+               <option value="community">community</option>
+               <option value="open source">open source</option>
+            </select><br>
+
+            <label for="would you recommend freecodecamp to a freind?"> What would you like to see improved? (Check all that apply) <br></label>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="subscribe" value="newsletter">
+                front-end projects</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted">
+                Back-end projects</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted"> Data
+                visualization</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted">
+                challenges</label><br>
+            <label for="tick" ><input type="checkbox"  class="tick" id="tick"> open
+                source</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted">
+                gitter help rooms</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted">
+                videos</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted"> city
+                meetups</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted">
+                wiki</label><br>
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted">
+                forums</label><br>
+
+            <label for="what would you like to see improved" class="tick"><input type="checkbox" name="terms" value="accepted">
+                additional courses</label><br>
+         
+            <div class="comment">
+               <label for="would you recommend freecodecamp to a freind?"> Any comments or suggestions<br> </label>
+               <label for="message"></label>
+               <textarea id="message" name="message">Enter your comment here</textarea><br>
+
+            </div> 
+
+            <div class="footer">
+                <input type="submit" value="Submit" class="submit" id="submit"><br>
+            </div>
+        </form>
+    </div>
     
 </body>
 </html>
